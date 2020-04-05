@@ -1,4 +1,5 @@
 package Figures;
 
-public class Drawable {
+public interface Drawable {
+    void draw();
 }
