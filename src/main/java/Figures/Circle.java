@@ -15,6 +15,6 @@ public class Circle extends Shape implements Drawable{
     }
 
     public void draw() {
-        System.out.println("Фигура: " + getName() + ", " + "площадь: " + getArea() + "кв. ед., " + "радиус: " + getRadius());
+        System.out.printf("Фигура: %s, площадь: %.2f кв.ед., радиус: %.2f ед., цвет: %s", getName(), getArea(), getRadius(), getColor());
     }
 }
